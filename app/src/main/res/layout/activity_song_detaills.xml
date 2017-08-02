@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@id/iv_artist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_artist"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/tv_Artist_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/artist_name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_margin="15dp"
+        android:layout_below="@id/tv_name"/>
+
+    <TextView
+        android:id="@+id/tv_artist_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_toRightOf="@id/tv_Artist_label"
+        android:layout_below="@id/tv_name"
+        android:layout_marginTop="15dp"
+        android:layout_alignBaseline="@id/tv_Artist_label"/>
+
+    <TextView
+        android:id="@+id/tv_genre_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/genre_name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_margin="15dp"
+        android:layout_below="@id/tv_Artist_label"/>
+
+    <TextView
+        android:id="@id/tv_genre_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_toRightOf="@id/tv_genre_label"
+        android:layout_below="@id/tv_track_name"
+        android:layout_marginTop="15dp"
+        android:layout_alignBaseline="@id/tv_genre_label"/>
+
+    <TextView
+        android:id="@+id/tv_date_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/release_date"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_margin="15dp"
+        android:layout_below="@id/tv_genre_label"/>
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_toRightOf="@id/tv_date_label"
+        android:layout_below="@id/tv_genre_name"
+        android:layout_marginTop="15dp"
+        android:layout_alignBaseline="@id/tv_date_label"/>
+
+    <TextView
+        android:id="@+id/tv_price_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/price"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_margin="15dp"
+        android:layout_below="@id/tv_date_label"/>
+
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_toRightOf="@id/tv_price_label"
+        android:layout_below="@id/tv_date"
+        android:layout_marginTop="15dp"
+        android:layout_alignBaseline="@id/tv_price_label"/>
+
+    <TextView
+        android:id="@+id/tv_time_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_margin="15dp"
+        android:layout_below="@id/tv_price_label"/>
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_toRightOf="@id/tv_time_label"
+        android:layout_below="@id/tv_price"
+        android:layout_marginTop="15dp"
+        android:layout_alignBaseline="@id/tv_time_label"/>
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Untrodden</string>
+    <string name="hint">Search</string>
+    <string name="internet_connection">Internet connection not available</string>
+    <string name="time">Time:</string>
+    <string name="price">Price:</string>
+    <string name="release_date">Release Date:</string>
+    <string name="genre_name">Genre Name:</string>
+    <string name="artist_name">Artist Name:</string>
+</resources>
